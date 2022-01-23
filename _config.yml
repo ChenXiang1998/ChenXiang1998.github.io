@@ -1,0 +1,4 @@
+deploy:
+type: git
+repo: https://chenxiang1998.github.io/
+branch: main
