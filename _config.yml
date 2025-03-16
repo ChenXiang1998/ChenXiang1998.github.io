@@ -1,40 +1,79 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# -------------------------------
+# Academic Homepage Configuration
+# -------------------------------
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+title: "Xiang Chen"  # Your name or site title
+email: "your-email@example.com"  # Your email address
+description: "Academic homepage of Xiang Chen. Research in Geospatial Statistics & Public Health."  # Short site description
+author: "Xiang Chen"  # Your name
+logo: "/assets/img/profile.png"  # Path to your profile picture
+favicon: "/assets/images/favicon.ico"  # Path to favicon (if available)
 
-# Build settings
-markdown: kramdown
+# URL settings
+baseurl: ""  # Leave empty if using https://ChenXiang1998.github.io/, or set to "/homepage" for subdirectories
+url: "https://ChenXiang1998.github.io"  # Your website URL
+
+# Timezone
+timezone: Asia/Riyadh  # Set your local timezone
+
+# Social links
+social:
+  github: "ChenXiang1998"
+  google_scholar: "https://scholar.google.com.hk/citations?user=-_-FfdQAAAAJ&hl=zh-CN"
+  orcid: "https://orcid.org/0000-0002-0573-9651"
+
+# -------------------------------
+# Jekyll Settings
+# -------------------------------
+
+markdown: kramdown  # Markdown processor
 plugins:
-  - jekyll-email-protect
+  - jekyll-email-protect  # Protects email addresses from spam
+  - jekyll-feed  # Generates an RSS feed
+  - jekyll-seo-tag  # SEO optimizations
+  - jekyll-sitemap  # Generates a sitemap for search engines
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# timezone: Asia/Shanghai
-
+# Collections
 collections:
-  - publications
-  - news
-  - showcase
+  publications:
+    output: true  # Enable a publications page
+    permalink: /publications/:path/  # Set URL structure
+  news:
+    output: true  # Enable a news page
+    permalink: /news/:path/
+  showcase:
+    output: true  # Enable a showcase/projects page
+    permalink: /showcase/:path/
+
+# Navigation Menu (Edit to change menu items)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Projects"
+    url: "/showcase/"
+  - title: "News"
+    url: "/news/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Exclusions (Files to ignore when building the site)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+
+# Footer Configuration
+footer:
+  show_copyright: true  # Display copyright notice
+  show_powered_by: true  # Display "Powered by Jekyll"
+  additional_text: "© 2025 Xiang Chen. All rights reserved."
+
