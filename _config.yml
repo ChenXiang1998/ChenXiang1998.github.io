@@ -45,6 +45,9 @@ collections:
   showcase:
     output: true  # Enable a showcase/projects page
     permalink: /showcase/:path/
+  leetcode:
+    output: true
+    permalink: /leetcode/:path/
 
 # Navigation Menu (Edit to change menu items)
 navigation:
@@ -62,6 +65,7 @@ navigation:
     url: "/cv/"
   - title: "Contact"
     url: "/contact/"
+
 
 # Exclusions (Files to ignore when building the site)
 exclude:
