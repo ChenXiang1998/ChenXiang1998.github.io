@@ -45,9 +45,6 @@ collections:
   showcase:
     output: true  # Enable a showcase/projects page
     permalink: /showcase/:path/
-  leetcode:
-    output: true
-    permalink: /leetcode/:path/
 
 # Navigation Menu (Edit to change menu items)
 navigation:

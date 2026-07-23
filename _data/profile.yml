@@ -3,8 +3,10 @@ secondary_name: ""  # Leave this empty
 navbar_name: "Xiang Chen's Home Page"
 
 positions:
-- logo: /assets/images/badges/KAUST.jpg   # Logo is optional
-  name: Ph.D. candidate at KAUST
+- logo: /assets/images/badges/uio-logo.png
+  name: Postdoctoral Research Fellow at University of Oslo
+- logo: /assets/images/badges/KAUST.jpg
+  name: Ph.D. in Statistics, King Abdullah University of Science and Technology (KAUST)
 
 
 email: "xiang.chen@kaust.edu.sa"
@@ -16,15 +18,33 @@ github: ChenXiang1998
 
 
 short_bio: |
-  <p>I am now a Ph.D. candidate at King Abdullah University of Science and Technology (KAUST), working on geospatial statistics and public health. My research now focuses on time series analysis, spatial statistics, and machine learning for epidemiological forecasting, particularly in infectious disease modeling. I explore how deep learning, climate data, and human mobility can be integrated to enhance disease prediction models.</p>
+  <p>
+  I am a postdoctoral researcher at the University of Oslo (UiO), working on geospatial statistics and public health. 
+  My research focuses on time series analysis, spatial statistics, and machine learning for epidemiological forecasting, 
+  particularly in infectious disease modeling. I explore how deep learning, climate data, and human mobility can be 
+  integrated to enhance disease prediction models.
+  </p>
 
-  <p>During my master's at Harbin Institute of Technology (HIT), I worked on Automated Machine Learning (AutoML), particularly Neural Architecture Search (NAS), to automate model design and training processes. I also explored federated learning (FL) to enable decentralized model training across multi-source datasets while preserving data privacy.</p>
+  <p>
+  I obtained my Ph.D. in Statistics from King Abdullah University of Science and Technology (KAUST), where I worked 
+  on geospatial statistics and infectious disease forecasting. During my doctoral studies, I investigated statistical 
+  and machine learning approaches for integrating environmental and mobility-related factors into disease prediction models.
+  </p>
 
-  <p>Beyond forecasting and automation, I am deeply interested in ML interpretability (XAI), particularly counterfactual explanations, and actively engage in discussions on AI ethics.</p>
+  <p>
+  During my master's at Harbin Institute of Technology (HIT), I worked on Automated Machine Learning (AutoML), 
+  particularly Neural Architecture Search (NAS), to automate model design and training processes. I also explored 
+  federated learning (FL) to enable decentralized model training across multi-source datasets while preserving data privacy.
+  </p>
 
-  <p>I am always open to collaboration opportunities!</p>
+  <p>
+  Beyond forecasting and automation, I am interested in machine learning interpretability (XAI), particularly 
+  counterfactual explanations, and broader discussions on responsible and trustworthy AI.
+  </p>
 
-
+  <p>
+  I am always open to collaboration opportunities!
+  </p>
 
 show_portrait: true
 portrait_url: /assets/images/photos/profile.jpg
@@ -35,7 +55,7 @@ education:
 - name: King Abdullah University of Science and Technology (KAUST)
   logo: /assets/images/badges/KAUST.jpg  # Replace with your actual university logo
   position: >-
-    Ph.D. candidate in Statistics
+    Ph.D. in Statistics
   date: Jan. 2023 - Jun. 2026
 - name: Harbin Institute of Technology (HIT)
   logo: /assets/images/badges/hit.jpg  # Replace with your actual university logo
@@ -48,7 +68,12 @@ education:
 
 
 experience:
+- name: University of Oslo (UiO)
+  logo: /assets/images/badges/uio-logo.png
+  position: Postdoctoral Research Fellow
+  date: Sep. 2026 - present
+
 - name: Microsoft Research Asia, Beijing
-  logo: assets/images/badges/Microsoft.jpg
-  position: Intern of DKI(Data, Knowledge, Intelligence) group
+  logo: /assets/images/badges/Microsoft.jpg
+  position: Intern of DKI (Data, Knowledge, Intelligence) group
   date: Dec. 2021 - Apr. 2022
